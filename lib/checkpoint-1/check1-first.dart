@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:footer/footer.dart';
 import 'package:footer/footer_view.dart';
-import 'package:nostart/checkpoint-1/check1-second.dart';
 import 'package:nostart/constant/styles.dart';
 import 'package:nostart/widgets/FooterTemplate.dart';
 import 'package:nostart/widgets/sideLogo.dart';
 import 'package:nostart/widgets/video-items.dart';
 import 'package:video_player/video_player.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // ignore: camel_case_types
 class Check1_FirstPage extends StatefulWidget {
@@ -30,6 +30,7 @@ class _Check1_FirstPageState extends State<Check1_FirstPage> {
   VideoItems currentVideo;
   int indexVideo = 0;
   bool firstLoad = true;
+  YoutubePlayerController _controller;
   List<VideoItems> listVideos = [];
   List<String> listVideoSource = [
     "videos/kuiz_video_1.mp4",
@@ -51,6 +52,7 @@ class _Check1_FirstPageState extends State<Check1_FirstPage> {
   void initState() {
     currentTitleVideo = listVideoTitle[indexVideo];
     currentVideoSource = listVideoSource[indexVideo];
+
     // listVideos = [
     //   new VideoItems(
     //     videoPlayerController: VideoPlayerController.asset(
@@ -216,17 +218,47 @@ class _Check1_FirstPageState extends State<Check1_FirstPage> {
       currentVideo = null;
     }
     print('initialize video');
-    currentVideo = new VideoItems(
-        videoPlayerController: VideoPlayerController.asset(
-          listVideoSource[indexVideo],
-        ),
-        looping: true,
-        autoplay: false);
+    // currentVideo = new VideoItems(
+    //     videoPlayerController: VideoPlayerController.asset(
+    //       listVideoSource[indexVideo],
+    //     ),
+    //     looping: true,
+    //     autoplay: false);
+
+    String videoId;
+    videoId = YoutubePlayer.convertUrlToId(
+        "https://www.youtube.com/watch?v=BBAyRBTfsOU");
+    _controller = YoutubePlayerController(
+      initialVideoId: videoId,
+      flags: YoutubePlayerFlags(
+        autoPlay: true,
+        mute: false,
+      ),
+    );
 
     return new Container(
         margin: EdgeInsets.zero,
         child: AspectRatio(
-            aspectRatio: 16 / 9, child: Center(child: currentVideo)));
+            aspectRatio: 16 / 9,
+            child: YoutubePlayerBuilder(
+              player: YoutubePlayer(
+                controller: _controller,
+                showVideoProgressIndicator: true,
+                progressIndicatorColor: Colors.amber,
+                onReady: () {
+                  _controller.play();
+                },
+              ),
+              builder: (context, player) {
+                return Column(
+                  children: [
+                    // some widgets
+                    player,
+                    //some other widgets
+                  ],
+                );
+              },
+            )));
   }
 
   // ignore: non_constant_identifier_names

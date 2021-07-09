@@ -1,0 +1,332 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "archive",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "async",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "charcode",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "chewie",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/chewie-0.12.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "csslib",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/csslib-0.16.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/mac/Development/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_driver",
+      "rootUri": "file:///Users/mac/Development/flutter/packages/flutter_driver",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_inappwebview",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-5.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_test",
+      "rootUri": "file:///Users/mac/Development/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/mac/Development/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "footer",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/footer-0.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "fuchsia_remote_debug_protocol",
+      "rootUri": "file:///Users/mac/Development/flutter/packages/fuchsia_remote_debug_protocol",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "html",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "import_js_library",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/import_js_library-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "integration_test",
+      "rootUri": "file:///Users/mac/Development/flutter/packages/integration_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/logging-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "lottie",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/lottie-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "quiz_view",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/quiz_view-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "responsive_flutter",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/responsive_flutter-0.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "responsive_framework",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/responsive_framework-0.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/mac/Development/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "stack_trace",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "stream_channel",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sync_http",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/sync_http-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test_api",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "video_player",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "video_player_platform_interface",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_platform_interface-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "video_player_web",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_web-0.1.4+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "vm_service",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/vm_service-6.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "wakelock",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock-0.2.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "wakelock_platform_interface",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock_platform_interface-0.1.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "wakelock_web",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock_web-0.1.0+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "webdriver",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/webdriver-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "youtube_player_flutter",
+      "rootUri": "file:///Users/mac/Development/flutter/.pub-cache/hosted/pub.dartlang.org/youtube_player_flutter-8.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "nostart",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2021-07-08T03:07:20.046544Z",
+  "generator": "pub",
+  "generatorVersion": "2.13.3"
+}

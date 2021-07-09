@@ -1,4 +1,7 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
+import 'package:nostart/widgets/responsive.dart';
 import 'package:responsive_flutter/responsive_flutter.dart';
 
 abstract class StyleConstant {
@@ -7,6 +10,13 @@ abstract class StyleConstant {
   static double screenWidth;
   static double screenHeight;
 
+  static double h1FontSize;
+  static double h2FontSize;
+  static double h3FontSize;
+  static const double mediumFontSize = 35.0;
+  static const double mainFooterFont = 16.0;
+  static const double textFooterFont = 14.0;
+
   static registerContext(BuildContext context) {
     print("registerContext");
     mainContext = context;
@@ -14,18 +24,27 @@ abstract class StyleConstant {
     screenWidth = MediaQuery.of(mainContext).size.height;
   }
 
-  static double h1FontSize = screenWidth > 1700
-      ? ResponsiveFlutter.of(mainContext).moderateScale(280)
-      : ResponsiveFlutter.of(mainContext).moderateScale(80, 0.1);
+  static initializeFontSize(BuildContext context) {
+    if (Responsive.isDesktop(context)) {
+      h1FontSize = screenWidth > 1700
+          ? ResponsiveFlutter.of(mainContext).moderateScale(280)
+          : ResponsiveFlutter.of(mainContext).moderateScale(80, 0.1);
 
-  static double h2FontSize = screenWidth > 1700
-      ? ResponsiveFlutter.of(mainContext).moderateScale(250)
-      : ResponsiveFlutter.of(mainContext).moderateScale(25, 0.1);
+      h2FontSize = screenWidth > 1700
+          ? ResponsiveFlutter.of(mainContext).moderateScale(250)
+          : ResponsiveFlutter.of(mainContext).moderateScale(25, 0.1);
 
-  static const double h3FontSize = 22.0;
-  static const double mediumFontSize = 35.0;
-  static const double mainFooterFont = 16.0;
-  static const double textFooterFont = 14.0;
+      h3FontSize = 22.0;
+    } else if (Responsive.isMobile(context)) {
+      h1FontSize = 50;
+      h2FontSize = 20;
+      h3FontSize = 14;
+    } else {
+      h1FontSize = 70;
+      h2FontSize = 23;
+      h3FontSize = 18;
+    }
+  }
 
   static const Color backgroundColor = Color(0xfffed8b1);
   static const Color footerColor = Color(0xffa5a355);
@@ -38,7 +57,7 @@ abstract class StyleConstant {
   static TextStyle h2TextStyle =
       TextStyle(fontSize: h2FontSize, fontFamily: 'Roboto-Bold');
 
-  static const TextStyle h3TextStyle =
+  static TextStyle h3TextStyle =
       TextStyle(fontSize: h3FontSize, fontFamily: 'Roboto-Bold');
 
   static const TextStyle mediumFontStyle =
